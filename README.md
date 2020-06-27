@@ -26,4 +26,25 @@ Users are able to browse the properties list or via the map, save houses to chec
 
 ### Youtube link: https://youtu.be/gsfHha2vtJg
 
+## :gear: Setup your own
 
+```bash
+# Clone repo
+$ git clone https://github.com/momeyer/realstate4u.git 
+
+$ cd realstate4u
+
+# Open pipenv virtual environment 
+$ pipenv shell
+
+# Install the project dependencies takes from Pipfile.lock 
+$ pipenv install 
+
+# Migrate database and load fixture file to populate database 
+$ cd real_state
+$ python3.6 manage.py migrate  
+$ python3.6 manage.py loaddata marketplace/fixtures/database.json
+
+# Run server 
+$ python3.6 manage.py runserver
+```
