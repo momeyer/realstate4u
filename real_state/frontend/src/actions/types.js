@@ -1,0 +1,23 @@
+export const GET_HOUSES = "GET_HOUSES";
+export const UPDATE_HOUSE_SEARCH = "UPDATE_HOUSE_SEARCH";
+export const UPDATE_SEARCH_FILTER = "UPDATE_SEARCH_FILTER";
+export const POST_REQUEST = "POST_REQUEST";
+
+export const USER_LOADING = "USER_LOADING";
+export const USER_LOADED = "USER_LOADED";
+export const AUTH_ERROR = "AUTH_ERROR";
+
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+
+
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+
+export const UPDATE_SELECTED = "UPDATE_SELECTED";
+
+export const GET_LIKED_HOUSES = "GET_LIKED_HOUSES";
+export const ADD_LIKED_HOUSES = "ADD_LIKED_HOUSES";
+
+export const SAVE_HOUSE = "SAVE_HOUSE";
