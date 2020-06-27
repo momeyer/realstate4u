@@ -47,4 +47,19 @@ $ python3.6 manage.py loaddata marketplace/fixtures/database.json
 
 # Run server 
 $ python3.6 manage.py runserver
+
+# To make changes, run the following
+$ npm install
+$ npm run dev
+
 ```
+![image1](/snapshots/1.png)
+![image2](/snapshots/2.png)
+![image3](/snapshots/3.png)
+![image4](/snapshots/4.png)
+![image5](/snapshots/5.png)
+![image6](/snapshots/6.png)
+![image7](/snapshots/7.png)
+
+
+

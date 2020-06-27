@@ -44,7 +44,7 @@ class Profile extends Component {
           <div className="col-md-12">
             <h1 style={{ textTransform: "capitalize" }}>
               {" "}
-              Welcome {localStorage.getItem("user")}!
+              Houses you liked, {localStorage.getItem("user")}!
             </h1>
             <Link
               to="/"

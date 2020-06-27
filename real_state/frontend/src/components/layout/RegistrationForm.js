@@ -17,7 +17,7 @@ class RegistrationForm extends Component {
       email: this.state.email,
     };
     this.props.register( newUser );
-    
+    document.getElementById('close').click()
   };
 
   onChange = (e) =>
@@ -100,6 +100,7 @@ class RegistrationForm extends Component {
                     type="button"
                     className="btn btn-outline-secondary ml-2 my-3"
                     data-dismiss="modal"
+                    id="close"
                   >
                     Close
                   </button>

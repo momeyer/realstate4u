@@ -13,7 +13,7 @@ class Save extends Component {
     this.props.saveHouse( ids )
     setTimeout(function () {
       document.location.reload();
-    }, 81000);
+    }, 800);
    
   };
 
