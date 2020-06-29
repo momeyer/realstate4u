@@ -53,6 +53,8 @@ $ npm install
 $ npm run dev
 
 ```
+
+![gif](/snapshots/gif.gif)
 ![image1](/snapshots/1.png)
 ![image2](/snapshots/2.png)
 ![image3](/snapshots/3.png)
@@ -60,6 +62,4 @@ $ npm run dev
 ![image5](/snapshots/5.png)
 ![image6](/snapshots/6.png)
 ![image7](/snapshots/7.png)
-
-
 
